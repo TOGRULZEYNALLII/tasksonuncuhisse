@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-leftside {
+  background-image: url(/task3/iamges/rightside.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  gap: 30px;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+  gap: 100px;
+}
+
+.container-rightside {
+  background-image: url(/task3/iamges/leftside.png);
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}/*# sourceMappingURL=style.css.map */

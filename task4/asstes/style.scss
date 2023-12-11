@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    padding: 150px; 
+    gap: 30px;
+
+}
+.leftside{
+    background-image: url(/task4/asstes/images/leftside.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-left:30px ;
+}
+.p{
+    color: orange;
+}
+//rightside
+.rightside{
+    background-image: url(/task4/asstes/images/rightside.jpg);
+    background-size: cover;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-left:30px ;
+}
